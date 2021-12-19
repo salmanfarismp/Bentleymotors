@@ -1,0 +1,100 @@
+.by_language_selection { display: none; }
+img { color: rgba(0,0,0,0); }
+
+@media screen and (min-width: 1366px) {
+  .by_dealer_main_content {
+    width: 100%; 
+    margin: 0 0 40px;
+  }
+ .by_dealer_locator_inner {
+    padding: 0 30px;
+  }
+
+  #by_dealer_global_button {
+    left: 0;
+  }
+
+  .by_dealer_search_info_label {
+    padding-left: 0;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  #by_dealer_global_button {
+    left: 30px;
+  }
+  .by_dealer_direction_bar {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .by_dealer_search_filter {
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .by_article_video_content {
+     z-index: 1;
+  }
+}
+
+/* Attempt to fix single Model Carousel entries */
+ul.by_swipeable_list_container {
+   padding-left: 0;
+}
+
+ul.by_swipeable_list_container li.by_swipeable_item:first-child {
+   padding-left: 40px;
+}
+
+ul.by_swipeable_list_container li.by_swipeable_item:first-child:last-child {
+   padding-left: 0px;
+}
+/* End attempt */
+
+
+/* temporary fix for BYCC-2169 */
+.by_cc_page__derivative .by_cc_features .by_cc_categories.by_hidden {
+  display: block;
+}
+/* End temporary fix for BYCC-2169 */
+
+/* temporary fix for BYCC-2173 */
+.by_cc_page__edit .by_cc_header_cta__price {
+  margin-right: 0px;
+}
+/* End temporary fix for BYCC-2173 */
+
+/* temporary fix for BY-2868 */
+.by_dealer_details_depart:first-child {
+  margin-top: 0px;
+}
+/* End temporary fix for BY-2868 */
+
+
+/* temporary fix for: BYS-887 Home page carousel tiles not loading in Chrome/Edge */
+.by_homepage_tiles .by_cover_tile__half .by_cover_tile_img_inner img { width: 100%; }
+.by_homepage_tiles .by_cover_tile__half .by_cover_tile_img_inner img.by_visible { width: auto; }
+/* End temporary fix for: BYS-887  */
+
+/* Temporary fix for BY-2434 */
+#by_dealer_locator.by_has_header_margin {
+   margin-top: 0px;
+}
+
+.by_button_more { 
+    margin-bottom: 0px;
+}
+
+.by_dealer_search_bar {
+    padding-top: 10px;
+}
+/* End of fix for BY-2434 */
+
+/* temporary fix for BY-2870 */
+
+.by-m-footer-copy .by_richtext {
+  font-size: 16px;
+}
+/* temporary fix for BY-2870 */
+
